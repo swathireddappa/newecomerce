@@ -51,3 +51,72 @@ footer{
     height: var(--footer-heigth);
     width: 100%;
 }
+
+.images {
+    height: 150px;
+    width: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center; 
+}
+
+#image1 {
+    background-image: url(https://images.thenile.io/r1000/0028399065882.jpg);
+}
+#image2 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0600/0141/9429/products/luqnkgu7pmrtqqk6ugeh_81466610-2352-45c0-b669-ce49981e2caa.jpg?v=1676330166);
+}
+#image3 {
+    background-image: url(https://peeka.co/cdn/shop/products/Kids-digital-camera-model-c-mikayo-bear-kidamento-front.jpg?v=1654006789);
+}
+#image4 {
+    background-image: url(https://www.buddytoys.eu/getattachment/e022a3fd-616b-4878-b399-40f961534f22/BEC-7121.aspx);
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.all_images {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center; 
+}
+.top_image {
+    height: 150px;
+    width: 300px;
+    background-image: url(https://www.shutterstock.com/image-photo/pile-toys-isolated-on-white-260nw-321375317.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: auto;
+}
+.image_heading {
+    color: rgb(13, 110, 134);
+    font-size: 0.9em;
+    
+}
+.bold {
+    font-size: 1.5em;
+}
+.top_text {
+    text-align: center;
+    margin: 10px;
+}
