@@ -112,6 +112,27 @@ footer{
     justify-items: center;
     align-items: center; 
 }
+.slider{
+    display: flex;
+    overflow-x: scroll;
+}
+.slider img{
+    width: 100%;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.page.dot{
+width: 10px;
+height: 10px;
+border-radius: 50%;
+margin: 0 5px;
+cursor: pointer;
+background-color: red;
+
+}
 
 #image1 {
     background-image: url(https://images.thenile.io/r1000/0028399065882.jpg);
@@ -164,6 +185,11 @@ footer{
     text-align: center;
     margin: 10px;
 }
+.teddy{
+    color: crimson;
+    font-style: italic;
+    text-decoration: underline;
+   }
 .details{
     color: rgb(20, 103, 220);
     font-style: italic;
