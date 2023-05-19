@@ -15,3 +15,15 @@ function toggleHamburgerMenu(){
     navMenu.classList.toggle('active');
 
 }
+
+fetch('https://dummyjson.com/products')
+.then(response => response.json())
+.then(rawdata => {
+    const products = rawdata.products;
+    const firstproducts = products[0];
+    const productPhotos = firstproducts.images;
+    console.log('Product photos :', productPhotos);
+})
+.catch(error => {
+    console.log('Error fectching product data :', error);
+})
