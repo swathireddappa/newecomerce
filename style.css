@@ -32,7 +32,7 @@ body{
     margin: 0 auto;
 }
 header{
-    background-color: var(--primary-bg-color);
+    background-color:var(--primary-bg-color);
     height: var(--header-height);
     width: 100%;
     /* z-index: 3; */
@@ -103,7 +103,7 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
     margin: 5px;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 1px solid black;
 
     display: flex;
@@ -118,6 +118,7 @@ footer{
 }
 .slider img{
     width: 100%;
+    height: 100%;
 }
 .pagination{
     display: flex;
@@ -296,3 +297,26 @@ menu {
       width: 350px;
     }
   }
+
+  @media only screen and (min-width: 992px) {
+    body{
+        padding: 0px;
+        margin: 20px;
+        background-color: lightcyan;
+
+
+    }
+    a:hover{
+        color: blue;
+    }
+
+    header{
+        background-color:rgb(81, 189, 193);
+        height: var(--header-height);
+        width: 100%;
+        /* z-index: 3; */
+    }
+
+  }
+ 
+ 
